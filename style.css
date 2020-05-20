@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+body{
+    background: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: #222;
+    color: #FFF;
+    padding: 20px 20px;
+        
+}
+#logo{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    width: 49%;
+}
+#logo img{
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align:middle
+}
+#logo span{
+    display: inline-block;
+}
+nav{
+    width: 50%;
+    display: inline-block;
+    text-align: right   
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 7px;
+    border-radius: 3px;
+    transition:0.3s ease all;
+}
+nav ul li a:hover{
+    background: #444;
+    
+}
+
+.hero{
+    min-height: 700px;
+    text-align: center;
+    background-image: url(image/sky.jpg);
+    background-size: cover;
+}
+.hero-content{
+    color: #fff;
+    padding-top: 130px;
+    
+}
+.hero-content h1{
+    font-size: 88px;
+    margin: 0;
+}
+.hero-content p{
+    font-size: 48px;
+}
+.hero-content a{
+    display: inline-block;
+    color: #fff;
+    border: 3px solid #fff; 
+    border-radius: 3px;
+    padding: 14px 28px;
+    margin-right: 18px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.site-section{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.site-section-inside{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-header h2{
+    font-size: 27px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #777;
+}
+.feature-box{
+    display: inline-block;
+    width: 32%;
+    padding: 20px 30px;
+}
+.feature-box img{
+    margin-bottom: 12px;
+    width: 85px;
+}
+.feature-box h5{
+    font-size: 16px;
+    color:999;
+    font-weight: 350px;
+    letter-spacing: 1px;
+    margin: 0;
+    
+}
+.site-section-secondary{
+    background: #EFEFEF;
+}
+.testimonial-box{
+    display: inline-block;
+    width: 30%;
+    padding: 18px 28px;
+}
+.testimonial-content{
+    background: #FFF;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.testimonial-author img{
+    float: left;
+    width: 85px;
+    border-radius: 48px;
+    margin-right: 12px;
+    vertical-align: middle;
+    
+}
+.testimonial-author h5{
+    font-size: 16px;
+    margin: 0;
+    padding-top: 14px;
+}
+.testimonial-author span{
+    font-size: 12px;
+}
+footer{
+    background: #222;
+    color: #777;
+    padding: 40px;
+    text-align: center;
+}
+footer img{
+    display: block;
+    border-radius: 5px;
+    width: 80px;
+    margin: 0 auto 10px;
+}
